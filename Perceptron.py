@@ -108,11 +108,11 @@ def pocket_algorithm(dataset,w0,max_upd):
 
 if __name__ == '__main__':
     # y = mx + b
-    m, b = -2, 1
+    m, b = -1, 1
 
     # other parameters
     n_points = 2000
-    rand_param = 30
+    rand_param = 300
     pos_num = int(n_points / 2)
 
     # plot
